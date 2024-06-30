@@ -36,6 +36,11 @@ function App() {
     <button onClick={add}>Add value {count}</button> <br />
     <button onClick={sub}>Remove Value {count}</button>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ea vel omnis atque quae ad, ipsam corporis voluptatibus veniam impedit, sint culpa. Nulla iste, suscipit sequi et totam eligendi modi! {count}</p>
+
+    <h2>git add .  </h2>
+    <h2>git commit -m "counter Project"</h2>
+    <h2>git push origin main</h2>
+    <h2>git status</h2>
     </>
   )
 }
