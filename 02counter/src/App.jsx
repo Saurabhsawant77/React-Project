@@ -8,8 +8,17 @@ function App() {
 
   const add = () => {
     
-    count = count+1;
-    setCounter(count);
+    // count = count+1;
+    setCounter(count+1);// asa kela tri ekdach update honar ani use state mhule hota hee (saglyach ekach batch bnnar)
+    setCounter(count+1);// asa kela tri ekdach update honar ani use state mhule hota hee (saglyach ekach batch bnnar)
+    setCounter(count+1);// asa kela tri ekdach update honar ani use state mhule hota hee (saglyach ekach batch bnnar)
+    setCounter(count+1);// asa kela tri ekdach update honar ani use state mhule hota hee (saglyach ekach batch bnnar)
+    setCounter(count+1);// asa kela tri ekdach update honar ani use state mhule hota hee (saglyach ekach batch bnnar)
+    setCounter(prevCoyunter => prevCoyunter+1);
+    setCounter(prevCoyunter => prevCoyunter+1);
+    setCounter(prevCoyunter => prevCoyunter+1);
+    setCounter(prevCoyunter => prevCoyunter+1); //setCounter() return callback value 
+
     console.log("value added",  Math.round(Math.random()*10) +" " + count);
   }
 
@@ -41,6 +50,11 @@ function App() {
     <h2>git commit -m "counter Project"</h2>
     <h2>git push origin main</h2>
     <h2>git status</h2>
+
+<h1>Create Vite Project</h1>
+    <h3>npm create vite@latest</h3>
+    <h3>cd project_name</h3>
+    <h3>npm install -| to install node modules</h3>
     </>
   )
 }
