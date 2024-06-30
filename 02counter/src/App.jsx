@@ -14,14 +14,13 @@ function App() {
   }
 
   const sub = () => {
-    if(count<0){
+    if(count<=0){
       count=0;
       setCounter(count);
     }
     else{
-      
-      setCounter(count);
       count = count-1;
+      setCounter(count);
       console.log("value subtracted", Math.random()*10 +" " + count);
     }
    
