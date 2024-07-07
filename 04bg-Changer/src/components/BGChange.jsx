@@ -12,7 +12,7 @@ function BGChange() {
             <div className={`${bgColor} mb-4 rounded-xl min-h-screen`}>
                 <div className="flex justify-center items-center min-h-screen">
                     <button 
-                        onClick={() => changeColor('bg-blue-500')} 
+                        onClick={() => changeColor('bg-blue-500')}  
                         className='rounded-xl bg-blue-500 m-5 p-3 hover:border'>
                         Blue
                     </button>

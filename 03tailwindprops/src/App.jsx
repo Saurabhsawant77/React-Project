@@ -17,7 +17,7 @@ function App() {
   <>
   <h1 className='mb-4 bg-orange-200 p-4 rounded-xl text-black hover:bg-blue-500 hover:text-orange-400'>Tailwind test</h1>
   {/* <Card channel = "React-JS" someObje = {myObj} arr = {newArr}/> */}
-  <Card userName = "Saurabh Sawant" btnText = "Visit Me" />
+  <Card userName = {myObj.Name} btnText = "Visit Me" />
   <Card userName = "Siddhi Sawant" btnText = "Click Me" />
   <Card userName = "Arpi Sawant"/>
   <Card userName = "Abhi Sawant"/>

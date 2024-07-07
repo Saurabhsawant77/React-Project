@@ -55,6 +55,21 @@ function App() {
     <h3>npm create vite@latest</h3>
     <h3>cd project_name</h3>
     <h3>npm install -| to install node modules</h3>
+    <h2>To Use tailwind in react</h2>
+    <h3>npm install -D tailwindcss postcss autoprefixer</h3>
+    <h3>npx tailwindcss init -p</h3>
+    <h3>tailwind.config.js</h3>
+    <p>  content: [
+    "./index.html",
+    "./src/**/*.js,ts,jsx,tsx",
+  ]
+    </p>
+    <h3>index.css</h3>
+<p>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;</p>
+
     </>
   )
 }
