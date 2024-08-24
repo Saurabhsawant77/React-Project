@@ -1,2 +1,2 @@
-# React-Project
-Project on React
+# React-Project-basic-Learnings
+Mastering React.js
